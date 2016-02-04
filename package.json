@@ -1,0 +1,32 @@
+{
+  "name": "redux-controller",
+  "description": "Redux controller generate functions with access to global state",
+  "version": "0.0.1",
+  "repository": "http://github.com/lexich/redux-controller",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "node_modules/.bin/eslint *.js",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "postmerge": "npm install"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "devDependencies": {
+    "babel": "6.3.26",
+    "babel-cli": "6.4.5",
+    "babel-core": "6.4.5",
+    "babel-eslint": "4.1.8",
+    "babel-plugin-add-module-exports": "0.1.2",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-stage-0": "6.3.13",
+    "eslint": "1.10.3",
+    "eslint-config-airbnb": "5.0.0",
+    "eslint-plugin-react": "3.16.1",
+    "husky": "0.10.2"
+  }
+}
