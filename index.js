@@ -1,6 +1,7 @@
+"use strict"
 module.exports = function() {
   var listOfControllers = {}, cache = {};
-  let store;
+  var store;
 
   function use(_store) {
     store = _store;

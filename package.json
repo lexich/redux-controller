@@ -1,7 +1,7 @@
 {
   "name": "redux-controller",
   "description": "Redux controller generate functions with access to global state",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "http://github.com/lexich/redux-controller",
   "main": "index.js",
   "license": "MIT",
