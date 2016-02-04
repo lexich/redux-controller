@@ -46,6 +46,6 @@ class SmartComponent extends React.Component {
 function mapToFunc() {
   return { addItem: controller.get("addItem") };
 }
-export default connect(null, )
+export default connect(null, mapToFunc)(SmartComponent);
 
 ```
